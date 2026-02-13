@@ -7,7 +7,6 @@
 .container {
   width: 80%;
   min-height: 300px;
-  border: 1px solid #000;
   margin: auto;
 }
 .header {
@@ -15,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #0a3d62;
+  background-color: #0a3d62;
 }
 .header h1 {
   color: white;
@@ -30,7 +29,7 @@
   color: #943303;
 }
 .main {
-  height: 90vh;
+  height: 500px;
   background: url("/img/main2.jpeg") center/cover;
   display: flex;
   align-items: center;
@@ -46,7 +45,7 @@
 .main p {
   color: white;
 }
-/*  */
+
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -64,11 +63,12 @@
   transform: translateY(-4px);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
-/*  */
+
 .Journey {
-  padding: 10px;
-  padding-top: 0px;
-  background: #d1e4f2;
+  height: 330px;
+  padding: 15px;
+  padding-top: 10px;
+  background: #bdcbd5;
   text-align: center;
 }
 .Journey h2 {
@@ -76,13 +76,12 @@
 }
 .Journey-Photos {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 20px;
   margin-top: 20px;
   justify-content: center;
 }
 .card {
-  background: white;
+  background-color: white;
   width: 250px;
   border-radius: 5px;
   overflow: hidden;
@@ -94,12 +93,12 @@
   object-fit: cover;
 }
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
 }
 .card p {
   padding: 10px;
 }
-/*  */
+
 .offer {
   background: url("/img/city3.jpg") center/cover;
   padding: 90px;
@@ -150,7 +149,7 @@
 }
 
 .logo {
-  color: #fff;
+  color: white;
   font-size: 22px;
   font-weight: bold;
 }
@@ -261,7 +260,6 @@ nav a:hover::after {
   font-weight: bold;
 }
 
-/* Navbar links */
 nav {
   display: flex;
   gap: 20px;
@@ -277,7 +275,6 @@ nav a:hover {
   color: #943303;
 }
 
-/* Packages Section */
 .packages {
   padding: 50px 20px;
   text-align: center;
@@ -289,7 +286,6 @@ nav a:hover {
   font-size: 32px;
 }
 
-/* Flex Container */
 .package-container {
   display: flex;
   justify-content: center;
@@ -297,7 +293,6 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-/* Package Card */
 .package-card {
   width: 300px;
   background: rgb(247, 224, 224);
@@ -311,14 +306,12 @@ nav a:hover {
   transform: translateY(-35px);
 }
 
-/* Image */
 .package-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-/* Text */
 .package-card h2 {
   margin: 15px 0;
   font-size: 20px;
@@ -329,8 +322,6 @@ nav a:hover {
   color: #0b3c5d;
   margin-bottom: 15px;
 }
-
-/* Button Hover Effects */
 
 .btn-book {
   display: inline-block;
@@ -352,7 +343,6 @@ nav a:hover {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Footer */
 .footer {
   background: #1b2a33;
   color: white;
@@ -370,7 +360,7 @@ nav a:hover {
 }
 
 .container1 {
-  width: 50%;
+  width: 80%;
   height: 30%;
   padding: 30px;
   border-radius: 10px;
@@ -478,7 +468,6 @@ button:hover {
     flex-direction: column;
     gap: 10px;
   }
-
   .package-card {
     width: 90%;
   }
@@ -489,12 +478,12 @@ button:hover {
     flex-direction: column;
   }
 
-  .hero {
+  .main {
     height: auto;
     padding: 60px 20px;
   }
 
-  .hero h1 {
+  .main h1 {
     font-size: 36px;
   }
 }
